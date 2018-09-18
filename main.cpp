@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
+#include <string>
+
+using namespace std;
+
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	
+	string s;
+	while (1) {
+		cin >> s;
+		cout << s << endl;
+		if (s == "q") { break; }
+
+	}
 
 	return 0;
 }
